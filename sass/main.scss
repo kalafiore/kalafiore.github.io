@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+body {
+	height: 100vh;
+	background-color: #333;
+	font-size: 46px;
+}
+
+.info-text {
+	font-size: 0.7rem;
+	color: white;
+	margin-top: 20px;
+}
+
+.header {
+	color: white;
+	font-size: 25px;
+	i {
+		font-size: 30px;
+		margin-left: 50px;
+		margin-top: 15px;
+		margin-right: 20px;
+		margin-bottom: 15px;
+		color: white;
+	}
+}
+
+.single-track-wrapper {
+	display: flex;
+	color: white;
+	font-size: 25px;
+}
+
+.track-element-wrapper label {
+	margin-top: 1px;
+	margin-left: 20px;
+}
+input {
+	cursor: pointer;
+	margin-right: 15px;
+}
+
+.checked-trackes-list {
+	margin-top: 50px;
+	margin-left: 100px;
+	color: white;
+	font-size: 1rem;
+}
+.checked-courses-list {
+	margin-top: 50px;
+	margin-left: 100px;
+	color: white;
+	font-size: 1rem;
+}
+
+.fa-light {
+	display: flex;
+	color: white;
+}
+.course-list-wrapper {
+	margin-left: 35px;
+	margin-top: 10px;
+	font-size: 1.4rem;
+	color: lightgray;
+}
+
+.hidden {
+	display: none;
+}
+
+.course-title {
+	margin-left: 15px;
+}
+
+.track-label {
+	cursor: pointer;
+}
